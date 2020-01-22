@@ -1,35 +1,54 @@
-.nav {
-    background-color: #757780;
-  }
-
-  .nav-link {
-    color: white;
-  }
-
- 
-
-  .nav-pills .nav-link.active {
-    background-color:#1c5d99 ;
-  } 
-
-  .nav-pills .nav-link:hover{
-    color: #4CAF50;
-  }
-  body{
-      background-color: #111d4a
-  }
-
-  .con{
-    background-color: white;
-  }
-
-  ul#myList {
-    list-style-position:inside;
-  }
-
-  li {
-    list-style-position: inside;
+/* Gesamtes Dokument */
+body {
+  background-color: #111d4a;
+  font-family: 'Merriweather', sans-serif;
 }
 
+/* Text */
+h1 {
+  background-color: black;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+}
 
+/* Navigation */
+.navigation {
+  background-color: #757780;
+}
 
+.nav-link {
+  color: white;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #1c5d99;
+}
+
+.nav-pills .nav-link:hover {
+  color: #4caf50;
+}
+
+/* Container */
+.container {
+  background-color: white;
+}
+
+.video {
+  background-color: black;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+}
+
+.links {
+  background-color: black;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+}
+
+/* Listen */
+li {
+  list-style-position: inside;
+}

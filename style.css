@@ -1,32 +1,75 @@
 /* Gesamtes Dokument */
 body {
   background-color: #111d4a;
-  font-family: 'Merriweather', sans-serif;
+  font-family: "Merriweather", sans-serif;
+}
+
+/* Hintergründe */
+.bgblack {
+  background-color: black;
+}
+
+.bgwhite {
+  background-color: white;
+}
+
+.bgprimary {
+  background-color: #3380c7;
+}
+
+.bgprimary-dark {
+  background-color: #1c5d99;
+}
+
+.bgaccent {
+  background-color: #4caf50;
 }
 
 /* Text */
-h1 {
-  background-color: black;
+.text-white {
   color: white;
-  margin: 20px;
-  padding: 20px;
+}
+
+.text-primary {
+  color: #3380c7;
+}
+
+.text-primary-dark {
+  color: #1c5d99;
+}
+
+.text-accent {
+  color: #4caf50;
+}
+
+h1 {
+  margin: 16px;
+  padding: 16px;
 }
 
 /* Navigation */
 .navigation {
   background-color: #757780;
+  margin-bottom: 16px;
 }
 
-.nav-link {
-  color: white;
+/*
+  Schattenfarbe ist hell-bläulich,
+  basierend auf aktuell eingestelltem Body-Background.
+  Das verleiht dem Menü einen 'Schein'.
+*/
+.navigation-shadow {
+  box-shadow: #2745bb 0 0 3px 3px;
+  -webkit-box-shadow: #2745bb 0 0 3px 3px;
+  -moz-box-shadow: #2745bb 0 0 3px 3px;
 }
 
 .nav-pills .nav-link.active {
-  background-color: #1c5d99;
+  background-color: #3380c7;
 }
 
 .nav-pills .nav-link:hover {
-  color: #4caf50;
+  color: #4caf50 !important;
 }
 
 /* Container */
@@ -37,15 +80,13 @@ h1 {
 .video {
   background-color: black;
   color: white;
-  margin: 20px;
-  padding: 20px;
+  margin: 16px;
+  padding: 16px;
 }
 
 .links {
-  background-color: black;
-  color: white;
-  margin: 20px;
-  padding: 20px;
+  margin: 16px;
+  padding: 16px;
 }
 
 /* Listen */
@@ -53,8 +94,8 @@ li {
   list-style-position: inside;
 }
 
-.myshadow{
-  box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.76);
--webkit-box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.76);
--moz-box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.76);
+.myshadow {
+  box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.76);
+  -webkit-box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.76);
+  -moz-box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.76);
 }
